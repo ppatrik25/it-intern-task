@@ -156,19 +156,19 @@
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1045,9832" sap2010:WorkflowViewState.IdRef="Sequence_3">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1045,9887" sap2010:WorkflowViewState.IdRef="Sequence_3">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Open Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="838,9809" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="b8eb9162-903c-4195-bcfb-412d0328d14d" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Open Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="838,9864" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="b8eb9162-903c-4195-bcfb-412d0328d14d" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Browser Sequence" sap:VirtualizedContainerService.HintSize="804,9569" sap2010:WorkflowViewState.IdRef="Sequence_92">
+          <Sequence DisplayName="Browser Sequence" sap:VirtualizedContainerService.HintSize="804,9624" sap2010:WorkflowViewState.IdRef="Sequence_92">
             <Sequence.Variables>
               <Variable x:TypeArguments="scg:ICollection(x:String)" Default="[New List(Of String)]" Name="existingVendors" />
               <Variable x:TypeArguments="x:String" Name="currTime" />
@@ -178,6 +178,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="770,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
             <Sequence DisplayName="Read From File Sequence" sap:VirtualizedContainerService.HintSize="770,5936" sap2010:WorkflowViewState.IdRef="Sequence_126">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:Int32" Name="excelSuccess" />
@@ -326,11 +327,7 @@
                                       </ActivityAction.Argument>
                                       <Sequence DisplayName="Add Vendor Details and Save" sap:VirtualizedContainerService.HintSize="596,2778" sap2010:WorkflowViewState.IdRef="Sequence_127">
                                         <Sequence.Variables>
-                                          <Variable x:TypeArguments="x:String" Name="excelSheet">
-                                            <Variable.Default>
-                                              <Literal x:TypeArguments="x:String">Vendors</Literal>
-                                            </Variable.Default>
-                                          </Variable>
+                                          <Variable x:TypeArguments="x:String" Default="Vendors" Name="excelSheet" />
                                         </Sequence.Variables>
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -591,11 +588,7 @@
             <Sequence DisplayName="Write To File Sequence" sap:VirtualizedContainerService.HintSize="770,3571" sap2010:WorkflowViewState.IdRef="Sequence_116">
               <Sequence.Variables>
                 <Variable x:TypeArguments="sd:DataTable" Name="dt_extractedTable" />
-                <Variable x:TypeArguments="scg:IList(x:Int32)" Name="rowsToDelete">
-                  <Variable.Default>
-                    <VisualBasicValue x:TypeArguments="scg:IList(x:Int32)" ExpressionText="New List(Of Integer)" />
-                  </Variable.Default>
-                </Variable>
+                <Variable x:TypeArguments="scg:IList(x:Int32)" Default="[New List(Of Integer)]" Name="rowsToDelete" />
                 <Variable x:TypeArguments="x:Int32" Name="counter" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
