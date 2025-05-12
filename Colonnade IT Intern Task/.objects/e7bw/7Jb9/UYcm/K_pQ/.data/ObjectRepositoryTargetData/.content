@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XOIund_3nUuYLqnyRW5ltw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="a0f68d89-7c53-4bd3-9bd8-f4f6f63252ff" CvElementArea="347, 495, 486, 37" CvTextArea="347, 475, 43, 13" CvTextArgument="Email:" CvType="InputBox" DesignTimeRectangle="348, 472, 485, 59" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl class='controls' tag='DIV' type='' aaname='                                                                                                                                ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0dac8b62-ad3b-465e-a81f-414e5b08da75" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Log In' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a0f68d89-7c53-4bd3-9bd8-f4f6f63252ff" CvTextArea="347, 475, 43, 13" CvTextArgument="Email:" CvType="Text" DesignTimeRectangle="348, 472, 42, 20" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='LABEL' type='' class='' aaname='Email:' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Email:' /&gt;" Guid="f2ecb849-c370-49c1-bd93-5a0d4fac5659" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8620dc125f154b52c519720793bb23d.png" xmlns="">0hMZ5qLZT2Ui5PDT1dc2vvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

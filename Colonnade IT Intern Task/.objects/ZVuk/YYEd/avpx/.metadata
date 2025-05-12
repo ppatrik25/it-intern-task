@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome ACME System 1 - Add Vendor",
+  "Type": "Screen",
+  "Id": "avpxTdb8wUeG2N1WqouJcQ",
+  "Reference": "lZSTWKHRS0-I7b4HyGYlFA/avpxTdb8wUeG2N1WqouJcQ",
+  "ParentRef": "lZSTWKHRS0-I7b4HyGYlFA/YYEdEAlCSEOxJ3G8aaktQg",
+  "Created": "2025-05-12T03:18:53.3656127Z",
+  "Updated": "2025-05-12T03:18:53.3656127Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
