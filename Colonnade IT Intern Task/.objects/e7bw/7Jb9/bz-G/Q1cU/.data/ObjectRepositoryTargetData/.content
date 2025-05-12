@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CncUphJfzEKlNg2EmZgJUw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/vendors/add" CVScreenId="4d8d540b-eeeb-4c7f-a874-a341346831c8" CvElementArea="346, 781, 109, 37" CvTextArea="359, 793, 84, 13" CvTextArgument="Save Vendor" CvType="Button" DesignTimeRectangle="348, 783, 106, 34" ElementType="Button" FullSelectorArgument="&lt;webctrl id='addVendor' tag='BUTTON' /&gt;" Guid="d9dd20bf-7751-4629-b644-da11fa552b99" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Add Vendor' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="4eb0e432aaaeae9070e032e27deb9c8b.png" xmlns="">0TbQ7mIJtoUuAQvRlwsk-ng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
